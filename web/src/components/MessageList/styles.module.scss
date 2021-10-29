@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  > img {
+  > svg {
     height: 28px;
     margin: 32px;
   }
@@ -27,7 +27,7 @@
     }
 
     .messageContent {
-      font-size: 20px;
+      font-size: 18px;
       line-height: 28px;
     }
 
@@ -46,7 +46,13 @@
           width: 30px;
           height: 30px;
           border-radius: 50%;
+          border: 4px solid #121214;
         }
+      }
+
+      span {
+        font-size: 16px;
+        margin-left: 12px;
       }
     }
   }
