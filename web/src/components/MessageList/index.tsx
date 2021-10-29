@@ -7,18 +7,18 @@ type Message = {
   id: string;
   text: string;
   user: {
-    nome: string;
+    name: string;
     avatar_url: string;
   }
 }
 
 
 export function MessageList() {
-  const messages = useState<Message[]>([])
+  const [messages, setMessages] = useState<Message[]>([])
 
   useEffect(() => {
-    api.get('messages/last3').then(resp => {
-      console.log(resp.data);
+    api.get<Message[]>('messages/last3').then(resp => {
+      setMessages(resp.data)
     })
   }, [])
 
@@ -43,35 +43,19 @@ export function MessageList() {
 
 
       <ul className={styles.messageList}>
-        <li className={styles.message}>
-          <p className={styles.messageContent}>Não vejo a hora de participar deste evento, muito messa como tudo o que a Rocketseat faz!!</p>
-          <div className={styles.messageUser}>
-            <div className={styles.userImage}>
-              <img src="http://github.com/ZaninDe.png" alt="Gabriel Zanin"/>
-            </div>
-            <span>Gabriel Zanin</span>
-          </div>
-        </li>
-
-        <li className={styles.message}>
-          <p className={styles.messageContent}>Não vejo a hora de participar deste evento, muito messa como tudo o que a Rocketseat faz!!</p>
-          <div className={styles.messageUser}>
-            <div className={styles.userImage}>
-              <img src="http://github.com/ZaninDe.png" alt="Gabriel Zanin"/>
-            </div>
-            <span>Gabriel Zanin</span>
-          </div>
-        </li>
-
-        <li className={styles.message}>
-          <p className={styles.messageContent}>Não vejo a hora de participar deste evento, muito messa como tudo o que a Rocketseat faz!!</p>
-          <div className={styles.messageUser}>
-            <div className={styles.userImage}>
-              <img src="http://github.com/ZaninDe.png" alt="Gabriel Zanin"/>
-            </div>
-            <span>Gabriel Zanin</span>
-          </div>
-        </li>
+        {messages.map(message => {
+          return(   
+            <li key={message.id} className={styles.message}>
+              <p className={styles.messageContent}>{message.text}</p>
+              <div className={styles.messageUser}>
+                <div className={styles.userImage}>
+                  <img src={message.user.avatar_url} alt={message.user.name} />
+                </div>
+                <span>{message.user.name}</span>
+              </div>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
