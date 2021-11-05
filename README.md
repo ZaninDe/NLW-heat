@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/static/v1?label=NLW&message=Heat&color=8257E5&labelColor=000000" alt="NLW Heat" />
 </p>
 
-## ✨ Tecnologias
+## ✨ Tech
 
 This project was developed with the following technologies:
 
