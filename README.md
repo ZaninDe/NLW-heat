@@ -24,7 +24,7 @@ This project was developed with the following technologies:
 
 
 ## 🚀 How to run
-> Obs.: On this projhect we have authentication by OAuth and with the Github
+> Obs.: On this project we have authentication by OAuth and with the Github
 
 - Clone this repository and access the directory;
 - Make a copy this file `.env.example` to `.env` and fill in your credentials from GitHub;
