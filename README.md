@@ -1,7 +1,7 @@
 <h1 align="center">NLW Heat - Node.js and React.js</h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tech=</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar">ow to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">License/a>
 </p>
