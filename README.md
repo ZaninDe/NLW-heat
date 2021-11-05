@@ -1,9 +1,9 @@
 <h1 align="center">NLW Heat - Node.js end React.js</h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-tecnologias">Tech=</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">ow to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">License/a>
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 This application can access by [`localhost:4000`](http://localhost:4000).
 
-## 📄 Licence
+## 📄 License
 
 This project is under license MIT. See the file [LICENSE](LICENSE) to more details.
 
