@@ -39,5 +39,6 @@ This application can access by [`localhost:4000`](http://localhost:4000).
 This project is under license MIT. See the file [LICENSE](LICENSE) to more details.
 
 ---
-
-by with ♥ by ZaninDe 👋🏻 &nbsp;[Follow me 🚀🚀🚀](https://github.com/ZaninDe)
+<p align="center">
+  by with ♥ by ZaninDe 👋🏻 &nbsp;[Follow me 🚀🚀🚀](https://github.com/ZaninDe)
+</P
