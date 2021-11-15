@@ -40,4 +40,4 @@ This project is under license MIT. See the file [LICENSE](LICENSE) to more detai
 
 ---
 
-by with ♥ by ZaninDe 👋🏻 &nbsp;[Follow me 🚀🚀🚀](https://discordapp.com/invite/gCRAFhc)
+by with ♥ by ZaninDe 👋🏻 &nbsp;[Follow me 🚀🚀🚀](https://github.com/ZaninDe)
