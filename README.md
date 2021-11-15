@@ -40,5 +40,5 @@ This project is under license MIT. See the file [LICENSE](LICENSE) to more detai
 
 ---
 <p align="center">
-  by with ♥ by ZaninDe 👋🏻 [Follow me] &nbsp;(https://github.com/ZaninDe/)
+  made with ♥ by ZaninDe 👋🏻
 </P
